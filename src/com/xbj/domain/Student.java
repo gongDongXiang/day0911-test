@@ -30,6 +30,7 @@ public class Student implements Serializable {
 
     public Student() {
         system.out.println("构造函数")
+        system.out.println("构造函数启动了")
         System.out.println("构造函数");
         System.out.println("构造函数启动了");
     }

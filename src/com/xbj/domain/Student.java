@@ -28,9 +28,7 @@ public class Student implements Serializable {
         this.age = age;
     }
 
-    public Student() {
-        system.out.println("构造函数")
-        system.out.println("构造函数启动了")
+    public Student(){
         System.out.println("构造函数");
         System.out.println("构造函数启动了");
     }

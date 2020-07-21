@@ -9,6 +9,7 @@ public class Student implements Serializable {
     public Student(String name, int age) {
         this.name = name;
         this.age = age;
+        System.out.println("全参构造函数启动了");
     }
 
     public String getName() {
@@ -29,7 +30,6 @@ public class Student implements Serializable {
 
     public Student() {
         system.out.println("构造函数")
-        system.out.println("构造函数启动了")
         System.out.println("构造函数");
         System.out.println("构造函数启动了");
     }
